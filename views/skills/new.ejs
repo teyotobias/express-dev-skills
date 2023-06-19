@@ -1,0 +1,14 @@
+<!-- partial template stuff -> study - dashes not = -->
+<%- include('../partials/header') %>
+
+
+<!-- 'name' on input should match  what they are inputting from model module -->
+<!-- route value /todos confusing but taken from CRUD doc given -->
+<form action="/skills" method="POST">
+    <input type="text" name="skill">
+    <button type="submit">Save Skill</button>
+</form>
+
+<!-- form used for edit as well -->
+
+<%- include('../partials/footer') %>
